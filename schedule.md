@@ -12,5 +12,5 @@ This is a _draft_ schedule
 | Intro scikit-learn | 1:30 | 2:30   | 60 minutes |
 | Something else | 2:30 | 3:30 | 60 minutes |
 | PM break | 3:30 | 3:45 | 15 minutes |
-| Another thing | 3:45 | 4:30 | 45 minutes |
+| File system? | 3:45 | 4:30 | 45 minutes |
 | Wrap-up, Q&A | 4:30 | 5:00 | 30 minutes |
