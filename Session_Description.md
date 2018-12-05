@@ -160,8 +160,16 @@ After attending the session participants will:
 ## Lunch
 
 ## Intro scikit-learn
-* Brian... could we do something to "learn" development patterns from the LRD?
-* Cluster by development patterns using k-means
+* Clustering - Use (3)k-means to see if we can cluster work comp writers into shorter, medium, longer tailed writers
+
+or
+
+* Classification - Fit multinomial classification to LRD triangles to predict Line of Business for an arbitary triangle.  Necessarily cover:
+	- Train/Test Split
+	- API consistency across algorithm
+	- Pipelining/Gridsearch
+	
+	Pretty much the same thing as last years sklearn demo but using reserve data vs boston housing.
 
 ## More Pandas: Python Fast Enough for Simulation Modeling
 * The Re-arrangement algorithm and maximum Value At Risk problem (https://ar.casact.org/the-re-arrangement-algorithm/)
