@@ -12,34 +12,51 @@ The session will not attempt to convert you to Python and does not claim its cak
 * You know R, have heard about Python and are curious what it is all about. You are unlikely to change religion. You will learn how to read Python code and how to converse with a Pythoner. You might also get a few ideas about how to improve your R code.
 * You know you need to learn something beyond Excel/VBA and are trying to figure out what, so you are looking at Python. You will learn that were you are not an actuary you probably should learn Python. But, full disclosure: for actuaries we recommend you learn R because of its strong actuarial network.
 
+### Why Does this Session Exist?
+R instruction reached saturation. It has mainstream acceptance. But Python is big outside actuarial science. Knowing something about Python is a good hedge. 
+
+Python as a general purpose language (Google, reddit, Spotify, SublimeText, Atom, ...) vs. R as domain specific language. A sign of the power of Python is that it can compete with R in its own domain. 
+
+Ask audience: why are you here? 
+
 ### Prerequisites
 
 You can already program in **some language** (R, VBA, ...; sorry HTML/CSS is **not** a programming language)
 
 ## Possible Mini-Projects
 
+Our value proposition is domain specific and relevant examples.
+
 * Download a web page and list the common words in descending order of frequency (use wikipedia or sec.gov)
 * Analysis of the CAS Loss Reserve Database
 * Create a basic frequency / severity simulation model or work with simulation modeling output
-* Find sentences common between two text files using exact matching and fuzzy matching
+* NOAA cat model for US wind (find the best data source for the re-analysis dataset) 
+* Find sentences common between two text files using exact matching and fuzzy matching, and general text cleaning 
 
 ## Learning Objectives
 
 After attending the session participants will:
 
 * Be able to recognize Python code
-* Be able to read Python code to get a general understanding of what it is doing (or how to find out if not obvious=access online help); recognize functions, classes, iterator constructions, lambda functions etc.
+* Be able to read Python code to get a general understanding of what it is doing
 * Be able to explain the difference between pure Python language and imported libraries
 * Be aware of, and appreciate, the Zen of Python
+* Be able to install Python (pip, Colab, Anaconda or Canopy) and know what to ask for (64 bit, Python 3.6+, Jupyter, JupyterLab)
 * Be aware of the functionality contained in basic built-in Python libraries such as os, sys, pathlib, re
 * Be aware of the functionality contained in the common and relevant add-on libraries such as numpy, pandas, matplotlib, seaborn, scipy, scikit-learn, requests, bs4
-* Be able to install Python (Anaconda or Canopy) and know what to ask for (Python 3.6+, Jupyter, JupyterLab)
-* Be able to write basic Python code, including functions, flow control, use of iterators, basic string manipulation
+* Be able to write basic Python code, including functions, flow control, dictionaries, use of iterators, basic string manipulation
 * Be able to perform classic "Pythoneque" scripting such as downloading a web page and scraping out text content
-* Be able to manipulate data with Pandas dataframes (discussed in the context of R dataframes)
-* Be able to create basic graphical visualizations
+* Be able to read, write and manipulate data with Pandas dataframes (discussed in the context of R dataframes)
+* Be able to create basic graphical visualizations 
 * Be able to list some differences and similarities between R and Python
 * Be able to explain that using either Python or R for data science is fine and that there is no clear **best** tool
+
+### Gloss (working notes only) 
+
+* General understanding: or how to find out if not obvious=access online help); recognize functions, classes, iterator constructions, lambda functions etc.
+* Graphics: Pandas and Seaborn, aware of eco-system 
+* Data IO: pandas
+* JSON - within context of webscraping
 
 ## General Points
 
